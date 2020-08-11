@@ -5,13 +5,13 @@
 }
 
 .page-header .top-bar-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	width: 90%;
-	margin: 0 auto;
-	padding: 1.6rem 0;
-	color: var(--color-in-text-primary);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text-in-primary);
+    padding: 1.6rem 0;
 }
 
 .page-header .top-bar-container > img {
@@ -29,13 +29,14 @@
 
 .page-header .header-content {
 	position: relative;
+	margin: 0 auto;
 	width: 90%;
 	margin: 3.2rem auto;
 }
 
 .page-header .header-content strong {
 	color: var(--color-title-in-primary);
-	font: 700 3.6rem "Archivo";
+	font: 700 3.6rem Archivo;
 	line-height: 4.2rem;
 }
 
@@ -46,6 +47,12 @@
 	font-size: 1.6rem;
 	line-height: 2.6rem;
 }
+
+#page-teacher-list {
+	width: 100vw;
+	height: 100vh;
+}
+
 
 @media (min-width: 700px) {
 	.page-header {
